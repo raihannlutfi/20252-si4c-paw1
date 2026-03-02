@@ -7,6 +7,38 @@
 <body> 
 
     <h1>Tentang Kami</h1>
-   
+    <!-- Form -->
+    <form action="submit.html" method="post">
+        NMP <br>
+        <input type="text" name="npm" id="npm"> <br>
+        Nama <br>
+        <input type="text" nam="nama" id="nama"> <br>
+        Email <br>
+        <input type="text" name="email" id="email">
+        <br>
+        Taggal lahir <br>
+        <input type="date" name="tgllahir" 
+        id="tgllahir"> <br>
+        kota lahir <br>
+        <select name="kotalahir" id="kotalahir">
+            <option value="JKT">Jakarta</option>
+            <option value="PLG">Palembang</option>
+            <option value="BTH">Batam</option>
+        </select> <br>
+        Jenis Kelamin <br>
+        <input type="radio" name="JK" value="L">
+        Laki-Laki <br>
+        <input type="radio" name="JK" value="P">
+        Perempuan <br>
+        Mengetahui UMDP dari mana <br>
+        <input type="checkbox" name="cb1" id="K">
+        Keluarga <br>
+        <input type="checkbox" name="cb2" id="S">
+        Sosial Media <br>
+        Foto <br>
+        <input type="file" name="foto" id=""> <br>
+        <button type="submit">simpan</button>
+        <button type="reset">Reset</button>
+    </form>
 </body>
 </html>
