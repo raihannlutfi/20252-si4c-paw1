@@ -1,0 +1,35 @@
+/* element slector */
+/* referensi web colorhunt.com */
+body {
+    background-color: yellow;
+    color: black;
+}
+
+.txt-center { text-align: center;}
+.bg-warning { background-color: blueviolet; border-radius: 0px 20px 22px 32px; border-style: solid; 
+    border-color: aliceblue; border-width: 5px;}
+.txt-black {color: black;}
+.p-1 {padding: 50px;} /* memberi jarak sisi dalam border
+.m-1 {margin: 50px;}    memberi jarak sisi luar border
+/* unvisited link */
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  background-color: blue;
+  border-radius: 10px;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
